@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    font-family: "Myriad Pro";
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container {
+    width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.Gradient {
+    background: #1777b3;
+    background: -moz-linear-gradient(left, #1777b3 0%, #37b3cd 100%);
+    background: -webkit-linear-gradient(left, #1777b3 0%,#37b3cd 100%);
+    background: linear-gradient(to right, #1777b3 0%,#37b3cd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1777b3', endColorstr='#37b3cd',GradientType=1 );
+}
+.Gradient2 {
+    background: #254a6b;
+    background: -moz-linear-gradient(left, #254a6b 0%, #2b9db9 100%);
+    background: -webkit-linear-gradient(left, #254a6b 0%,#2b9db9 100%);
+    background: linear-gradient(to right, #254a6b 0%,#2b9db9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#254a6b', endColorstr='#2b9db9',GradientType=1 );
+}
+.Gradient3 {
+    background: #39c7d6;
+    background: -moz-linear-gradient(left, #39c7d6 0%, #3756a3 100%);
+    background: -webkit-linear-gradient(left, #39c7d6 0%,#3756a3 100%);
+    background: linear-gradient(to right, #39c7d6 0%,#3756a3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39c7d6', endColorstr='#3756a3',GradientType=1 );
+}
+input, button, textarea, a  {
+    font-family: "PT Sans";
+}
+.menu {
+    padding: 5px;
+    width: 100%;
+}
+.menu .menuLeft {
+    float: left;
+}
+.menu .menuRight {
+    float: right;
+}
+.button {
+    width: 250px;
+    height: 30px;
+}
+.Logo {
+    position: relative;
+    left: 420px;
+    top: 0;
+}
+.ADV {
+    background-color: #e4e4e4;
+}
+.ADV img {
+    position: relative;
+    left: 650px;
+    top: 20px;
+}
+.profit {
+    width: 273px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.payments {
+    padding: 50px 0px 100px;
+}
+.payments .table {
+    width: 100%;
+}
+.payments ul + ul {
+    margin-top: 50px;
+}
+.payments .tCell {
+    text-align: center;
+    vertical-align: middle;
+}
+.Gradient3 img {
+    position: relative;
+    left: 340px;
+    top: 85px;
+}
+.advantages .r {
+    display: inline-block;
+    float: left;
+    width: calc(100% - 970px);
+    height: 300px;
+}
+.advantages .r img {
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+.info .item {
+    width: 50%;
+    float: left;
+}
+.statistic {
+    padding: 30px 0;
+}
+.statistic .item {
+    float:left;
+    width: 33.3333%;
+}
+.statistic .item .inner {
+    padding-left: 100px;
+    position: relative;
+}
+.statistic .item img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -42px;
+}
+.contribution {
+    width: 400px;
+    float: left;
+}
+.contribution .table {
+    width: 100%;
+}
+.table {
+    display: table;
+}
+.pay .tRow {
+    display: table-row;
+}
+.tCell {
+    display: table-cell;
+}
+.pay {
+    width: 400px;
+    float: right;
+}
+.pay .table {
+    width: 100%;
+}
+.filter li {
+    font-size: 13px;
+    line-height: 16px;
+    border-bottom: 1px dashed #666666;
+}
+.filter li a {
+    text-decoration: none;
+    color: #666666;
+}
+footer {
+    background-color: #667788;
+}
+.SocialAndLang {
+    display:flow;
+}
+.button {
+    display:flow;
+}
+.logo {
+    position: center;
+}
+.statistics span {
+    font-size: 30px;
+    color: #ffffff;
+}
+.statistics p {
+    font-size: 16px;
+    color: #bbddff;
+}
+.statistics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.statistics img {
+    margin: 45px;
+}
+.table {
+    display: table;
+}
+.tRow {
+    display: table-row;
+}
+.itemTable {
+    display: table-cell;
+    padding: 15px;
+    margin: 40px;
+}
+.container .r {
+}
